@@ -1,0 +1,27 @@
+#wdr-pivot-view {
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.16);
+}
+
+#wdr-calculated-view {
+  top: -100px !important;
+}
+
+.wdr-pivot-fields {
+  top: -80px !important;
+}
+.wdr-ui-btn {
+  border-radius: 0 !important;
+}
+
+.wdr-ui-btn-dark {
+  background-color: #1e87f0 !important;
+  color: #fff !important;
+}
+
+.wdr-svg-icon:hover {
+  color: #0f6ecd !important;
+}
+
+#wdr-toolbar {
+  background-color: #f8f8f8 !important;
+}

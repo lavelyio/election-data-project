@@ -1,12 +1,10 @@
 import React from 'react';
-import Counter from '../Counter';
-import Random from '../Random';
+import Home from '../Home';
 import classes from './App.module.css';
 
 const App = () => (
   <div className={classes.container}>
-    <Counter />
-    <Random />
+    <Home />
   </div>
 );
 
