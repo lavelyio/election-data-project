@@ -344,3 +344,4 @@ You can use source folder relative paths for imports. `import Component from './
     ├── withProvider.js # utility to generate Provider components
     └── withReduxFeatures.js # Redux store HOC
 ```
+# election-data-project
