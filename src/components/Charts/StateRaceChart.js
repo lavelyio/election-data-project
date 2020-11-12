@@ -154,9 +154,7 @@ const StateRaceChart = () => {
   const width = document.getElementById('chart-body')?.offsetWidth || 800;
   return (
     <>
-      <h4 className="uk-text-light" style={{marginLeft: 60}}>
-        State Race Chart
-      </h4>
+      <h3 className="uk-h3 uk-text-lighter">State Race Chart</h3>
       <div className="uk-flex uk-between" style={{alignItems: 'center'}}>
         <div className="uk-flex">
           <PlaybackButton onClick={handleRacePlayback} isPlaying={isPlaying}>
@@ -215,6 +213,7 @@ const StateRaceChart = () => {
             format: '~s',
           }}
           axisLeft={null}
+          axisBottom={null}
           padding={0.3}
           labelTextColor="#f3f3f3"
           isInteractive
@@ -224,11 +223,11 @@ const StateRaceChart = () => {
           theme={Theme}
         />
       )}
-      <h4 className="uk-margin-remove uk-padding-remove uk-text-meta">
+      <h4 className="uk-margin-remove uk-padding-remove uk-text-center">
         TimeStamp:{' '}
-        <h6 className="uk-h6 uk-margin-remove">
-          {yearData[current]?.key.toString()}
-        </h6>
+        <h5 className="uk-h5 uk-margin-remove uk-text-bold uk-text-danger">
+          {yearData[current]?.key?.toLocaleString()}
+        </h5>
       </h4>
     </>
   );

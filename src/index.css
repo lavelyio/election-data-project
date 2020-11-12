@@ -1,17 +1,17 @@
 @import url('../node_modules/uikit/dist/css/uikit.min.css');
 
 html {
+  background-color: #f3f3f3;
+  color: #283747;
   height: 100vh;
-  width: 100vw;
   position: static;
+  width: 100vw;
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  color: #283747;
-  background-color: #f3f3f3;
 }
 
 .Trump {

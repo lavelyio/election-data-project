@@ -1,8 +1,7 @@
 /* eslint-disable fp/no-mutation */
 const Theme = {
-  background: 'white',
   textColor: 'black',
-  fontSize: 18,
+  fontSize: 14,
   axis: {
     domain: {
       line: {
@@ -15,6 +14,7 @@ const Theme = {
         stroke: 'black',
         strokeWidth: 9,
       },
+      fontSize: 12,
     },
   },
   grid: {

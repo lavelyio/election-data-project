@@ -4,6 +4,7 @@ import Hoc from './hoc';
 
 // Views
 import Home from './components/Home';
+import Charts from './components/Charts';
 
 const BaseRouter = () => (
   <Suspense fallback={<div uk-spinner="true" />}>
@@ -11,6 +12,7 @@ const BaseRouter = () => (
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/home" component={Home} />
+        <Route path="/charts" exact component={Charts} />
       </Switch>
     </Hoc>
   </Suspense>

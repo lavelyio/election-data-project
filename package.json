@@ -12,11 +12,9 @@
     "@nivo/pie": "^0.62.0",
     "@nivo/scatterplot": "^0.62.0",
     "axios": "^0.21.0",
-    "axios-mock-adapter": "^1.19.0",
     "d3-scale": "^3.2.1",
     "d3-scale-chromatic": "^1.5.0",
     "moment": "^2.29.1",
-    "prettier": "^2.1.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -32,6 +30,7 @@
     "uikit": "^3.5.9"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.19.0",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/react-hooks": "^3.4.2",
@@ -41,6 +40,7 @@
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
     "husky": "^4.3.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "lint-staged": "^10.5.0",
