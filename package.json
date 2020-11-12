@@ -1,10 +1,7 @@
 {
-  "name": "count-watch",
+  "name": "election-data-project",
   "version": "0.1.0",
   "private": true,
-  "repository": {
-    "url": "https://github.com/lavelyio/election-data-project.git"
-  },
   "dependencies": {
     "@babel/runtime": "^7.12.1",
     "@nivo/bar": "^0.62.0",
