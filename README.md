@@ -345,3 +345,4 @@ You can use source folder relative paths for imports. `import Component from './
     └── withReduxFeatures.js # Redux store HOC
 ```
 # election-data-project
+# election-data-project
