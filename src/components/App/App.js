@@ -1,11 +1,14 @@
 import React from 'react';
-import Home from '../Home';
-import classes from './App.module.css';
+import {BrowserRouter as Router} from 'react-router-dom';
+import AppRouter from '../../router';
+import AppLayout from '../Layout';
 
 const App = () => (
-  <div className={classes.container}>
-    <Home />
-  </div>
+  <Router>
+    <AppLayout>
+      <AppRouter />
+    </AppLayout>
+  </Router>
 );
 
 export default App;
